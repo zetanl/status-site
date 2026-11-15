@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-15T21:33:03+00:00",
+    "gegenereerd_op": "2026-11-15T21:39:03+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -553,11 +553,17 @@
         }
     ],
     "recent": [],
+    "historie": [],
     "site": {
         "url": "https://status.zeta.nl",
         "spiegel": "https://zetanl.github.io/status-site",
         "portaal": "https://app.zeta.nl",
         "support": "https://support.zeta.nl"
     },
-    "inhoud": "0b4092061ac5cc02"
+    "abonneren": {
+        "aan": false,
+        "api": "https://app.zeta.nl",
+        "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
+    },
+    "inhoud": "173ace79adce7694"
 }

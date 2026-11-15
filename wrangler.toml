@@ -11,3 +11,5 @@ routes = [
 [assets]
 directory = "./site"
 binding = "ASSETS"
+# Altijd eerst de Worker: alleen zo krijgen ook statische bestanden de beveiligingsheaders (zie src/worker.js).
+run_worker_first = true

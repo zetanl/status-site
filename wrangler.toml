@@ -1,7 +1,13 @@
-# Cloudflare Workers Static Assets voor status.zeta.nl (deploy via .github/workflows/publiceer.yml).
+# status.zeta.nl op Cloudflare Workers (deploy via .github/workflows/publiceer.yml).
+# Route op de bestaande (geproxiede) DNS-regel: geen DNS-wijziging nodig; terugdraaien = route verwijderen.
 name = "zeta-status"
+main = "src/worker.js"
 compatibility_date = "2026-10-01"
+workers_dev = false
+routes = [
+  { pattern = "status.zeta.nl/*", zone_name = "zeta.nl" }
+]
 
 [assets]
 directory = "./site"
-not_found_handling = "404-page"
+binding = "ASSETS"

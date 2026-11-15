@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-15T22:54:03+00:00",
+    "gegenereerd_op": "2026-11-15T23:00:50+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -38,9 +38,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "internet",
@@ -75,9 +75,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "telefonie",
@@ -119,9 +119,9 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "email",
@@ -163,9 +163,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnp",
-            "dagen_goed": 0,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnpo",
+            "dagen_goed": 1,
+            "dagen_gemeten": 2
         },
         {
             "id": "m365",
@@ -214,9 +214,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "domein",
@@ -258,9 +258,9 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "web",
@@ -295,9 +295,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "servers",
@@ -332,9 +332,9 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "backup",
@@ -369,9 +369,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "security",
@@ -434,9 +434,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "ai",
@@ -457,9 +457,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         },
         {
             "id": "support",
@@ -487,12 +487,12 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
-            "dagen_goed": 1,
-            "dagen_gemeten": 1
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
+            "dagen_goed": 2,
+            "dagen_gemeten": 2
         }
     ],
-    "balk_start": "2026-08-18",
+    "balk_start": "2026-08-19",
     "actief": [],
     "gepland": [
         {
@@ -592,5 +592,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "12380947d8c7b320"
+    "inhoud": "4a4b4a1f133016f1"
 }

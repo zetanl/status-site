@@ -1,0 +1,7 @@
+# Cloudflare Workers Static Assets voor status.zeta.nl (deploy via .github/workflows/publiceer.yml).
+name = "zeta-status"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./site"
+not_found_handling = "404-page"

@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-15T20:01:03+00:00",
+    "gegenereerd_op": "2026-11-15T20:11:34+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -51,14 +51,14 @@
                 "nl": "Uw internetverbinding via ZETA Glasvezel of via onze partners, en de reserveverbinding.",
                 "en": "Your internet connection via ZETA Fibre or our partners, and the backup connection."
             },
-            "status": "none",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "internet.glasvezel",
                     "nl": "ZETA Glasvezel",
                     "en": "ZETA Fibre",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "internet.partners",
@@ -308,21 +308,21 @@
                 "nl": "VPS en servers in onze datacenters in Ede, en cloudservers bij onze partner.",
                 "en": "VPS and servers in our data centres in Ede, and cloud servers at our partner."
             },
-            "status": "none",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "servers.vps",
                     "nl": "VPS",
                     "en": "VPS",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "servers.datacenter",
                     "nl": "Servers en datacenter",
                     "en": "Servers and data centre",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "servers.cloud",
@@ -402,22 +402,22 @@
                     "id": "security.datalek",
                     "nl": "Datalekbewaking",
                     "en": "Breach monitoring",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "security.cyberapk",
                     "nl": "Cyber-APK",
                     "en": "Cyber check-up",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "security.dmarc",
                     "nl": "DMARC-analyse",
                     "en": "DMARC analysis",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "security.wachtwoord",
@@ -430,8 +430,8 @@
                     "id": "security.soc",
                     "nl": "Meldkamer (SOC)",
                     "en": "Security operations (SOC)",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 }
             ],
             "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
@@ -447,14 +447,14 @@
                 "nl": "ZETA AI, de AI-diensten die wij zelf in Nederland draaien.",
                 "en": "ZETA AI, the AI services we run ourselves in the Netherlands."
             },
-            "status": "none",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "ai.zetaai",
                     "nl": "ZETA AI",
                     "en": "ZETA AI",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 }
             ],
             "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
@@ -559,5 +559,5 @@
         "portaal": "https://app.zeta.nl",
         "support": "https://support.zeta.nl"
     },
-    "inhoud": "794804908ad36281"
+    "inhoud": "c9684aea79deb120"
 }

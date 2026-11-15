@@ -18,6 +18,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Noodmeldingen (incidents/) toevoegen
+        run: python3 tools/noodbanner.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -31,6 +33,8 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v4
+      - name: Noodmeldingen (incidents/) toevoegen
+        run: python3 tools/noodbanner.py
       - name: Deploy naar Cloudflare Workers
         if: env.CLOUDFLARE_API_TOKEN != ''
         uses: cloudflare/wrangler-action@v3

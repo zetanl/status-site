@@ -1,0 +1,563 @@
+{
+    "versie": 1,
+    "gegenereerd_op": "2026-11-15T19:38:16+00:00",
+    "kop": "ok",
+    "groepen_ok": 12,
+    "groepen_totaal": 12,
+    "groepen": [
+        {
+            "id": "portaal",
+            "nl": "Klantportaal en inloggen",
+            "en": "Customer portal and sign-in",
+            "icoon": "fa-right-to-bracket",
+            "info": {
+                "nl": "Inloggen bij ZETA, app.zeta.nl en de koppelingen voor resellers en software.",
+                "en": "Signing in to ZETA, app.zeta.nl and the integrations for resellers and software."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "portaal.app",
+                    "nl": "app.zeta.nl",
+                    "en": "app.zeta.nl",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "portaal.inloggen",
+                    "nl": "Inloggen (ZETA ID)",
+                    "en": "Sign-in (ZETA ID)",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "portaal.api",
+                    "nl": "API en koppelingen",
+                    "en": "API and integrations",
+                    "status": "ok",
+                    "bron": "auto"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "internet",
+            "nl": "Internet",
+            "en": "Internet",
+            "icoon": "fa-wifi",
+            "info": {
+                "nl": "Uw internetverbinding via ZETA Glasvezel of via onze partners, en de reserveverbinding.",
+                "en": "Your internet connection via ZETA Fibre or our partners, and the backup connection."
+            },
+            "status": "none",
+            "onderdelen": [
+                {
+                    "id": "internet.glasvezel",
+                    "nl": "ZETA Glasvezel",
+                    "en": "ZETA Fibre",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "internet.partners",
+                    "nl": "Zakelijk internet via partners",
+                    "en": "Business internet via partners",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "internet.reserve",
+                    "nl": "Reserveverbinding 4G/5G",
+                    "en": "Backup connection 4G/5G",
+                    "status": "none",
+                    "bron": "handmatig"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "telefonie",
+            "nl": "Telefonie",
+            "en": "Telephony",
+            "icoon": "fa-phone",
+            "info": {
+                "nl": "Vaste telefonie, mobiel en bellen via Microsoft Teams. Wij gebruiken hiervoor het netwerk van KPN.",
+                "en": "Fixed-line, mobile and calling via Microsoft Teams. We use the KPN network for this."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "telefonie.vast",
+                    "nl": "Vaste telefonie (VoIP)",
+                    "en": "Fixed-line (VoIP)",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "telefonie.mobiel",
+                    "nl": "Mobiel",
+                    "en": "Mobile",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "telefonie.teams",
+                    "nl": "Bellen via Teams",
+                    "en": "Calling via Teams",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "telefonie.porteren",
+                    "nl": "Nummerbehoud en overzetten",
+                    "en": "Number porting",
+                    "status": "none",
+                    "bron": "leverancier"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "email",
+            "nl": "E-mail",
+            "en": "Email",
+            "icoon": "fa-envelope",
+            "info": {
+                "nl": "Zakelijke e-mail, e-mail bij uw website, e-mail versturen vanuit software en beveiligd mailen.",
+                "en": "Business email, email with your website, sending email from software and secure email."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "email.zakelijk",
+                    "nl": "Zakelijke e-mail",
+                    "en": "Business email",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "email.hosting",
+                    "nl": "E-mail bij webhosting",
+                    "en": "Email with web hosting",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "email.versturen",
+                    "nl": "E-mail versturen vanuit software",
+                    "en": "Sending email from software",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "email.beveiligd",
+                    "nl": "Beveiligd mailen",
+                    "en": "Secure email",
+                    "status": "ok",
+                    "bron": "auto"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "m365",
+            "nl": "Microsoft 365",
+            "en": "Microsoft 365",
+            "icoon": "fa-brands fa-microsoft",
+            "info": {
+                "nl": "Deze diensten draaien bij Microsoft. Wij tonen wat Microsoft meldt en wat dat voor u betekent.",
+                "en": "These services run at Microsoft. We show what Microsoft reports and what it means for you."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "m365.outlook",
+                    "nl": "Outlook en Exchange",
+                    "en": "Outlook and Exchange",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "m365.teams",
+                    "nl": "Teams",
+                    "en": "Teams",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "m365.sharepoint",
+                    "nl": "SharePoint en OneDrive",
+                    "en": "SharePoint and OneDrive",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "m365.inloggen",
+                    "nl": "Inloggen bij Microsoft",
+                    "en": "Microsoft sign-in",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "m365.licenties",
+                    "nl": "Licenties bestellen en wijzigen",
+                    "en": "Ordering and changing licences",
+                    "status": "none",
+                    "bron": "handmatig"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "domein",
+            "nl": "Domeinnamen en DNS",
+            "en": "Domains and DNS",
+            "icoon": "fa-globe",
+            "info": {
+                "nl": "Domeinnamen registreren en verhuizen, de DNS van uw domein en SSL-certificaten.",
+                "en": "Registering and transferring domains, your domain's DNS and SSL certificates."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "domein.basic",
+                    "nl": "DNS Basic",
+                    "en": "DNS Basic",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "domein.premium",
+                    "nl": "DNS Premium",
+                    "en": "DNS Premium",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "domein.registratie",
+                    "nl": "Domeinnamen registreren en verhuizen",
+                    "en": "Registering and transferring domains",
+                    "status": "none",
+                    "bron": "leverancier"
+                },
+                {
+                    "id": "domein.ssl",
+                    "nl": "SSL-certificaten",
+                    "en": "SSL certificates",
+                    "status": "none",
+                    "bron": "leverancier"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "web",
+            "nl": "Websites",
+            "en": "Websites",
+            "icoon": "fa-window-maximize",
+            "info": {
+                "nl": "Webhosting, WordPress en het doorsturen van websites.",
+                "en": "Web hosting, WordPress and website redirects."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "web.hosting",
+                    "nl": "Webhosting",
+                    "en": "Web hosting",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "web.wordpress",
+                    "nl": "WordPress",
+                    "en": "WordPress",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "web.doorsturen",
+                    "nl": "Doorsturen van websites",
+                    "en": "Website redirects",
+                    "status": "ok",
+                    "bron": "auto"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "servers",
+            "nl": "Servers en cloud",
+            "en": "Servers and cloud",
+            "icoon": "fa-server",
+            "info": {
+                "nl": "VPS en servers in onze datacenters in Ede, en cloudservers bij onze partner.",
+                "en": "VPS and servers in our data centres in Ede, and cloud servers at our partner."
+            },
+            "status": "none",
+            "onderdelen": [
+                {
+                    "id": "servers.vps",
+                    "nl": "VPS",
+                    "en": "VPS",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "servers.datacenter",
+                    "nl": "Servers en datacenter",
+                    "en": "Servers and data centre",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "servers.cloud",
+                    "nl": "Cloudservers bij partner",
+                    "en": "Cloud servers at partner",
+                    "status": "none",
+                    "bron": "leverancier"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "backup",
+            "nl": "Back-up",
+            "en": "Backup",
+            "icoon": "fa-box-archive",
+            "info": {
+                "nl": "Back-ups van servers, Microsoft 365 en computers.",
+                "en": "Backups of servers, Microsoft 365 and computers."
+            },
+            "status": "none",
+            "onderdelen": [
+                {
+                    "id": "backup.servers",
+                    "nl": "Back-up van servers en VPS",
+                    "en": "Server and VPS backup",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "backup.m365",
+                    "nl": "Back-up van Microsoft 365",
+                    "en": "Microsoft 365 backup",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "backup.computers",
+                    "nl": "Back-up van computers",
+                    "en": "Computer backup",
+                    "status": "none",
+                    "bron": "handmatig"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "security",
+            "nl": "Beveiliging",
+            "en": "Security",
+            "icoon": "fa-shield-halved",
+            "info": {
+                "nl": "Onze beveiligingsdiensten. De bescherming op uw apparaten werkt ook als deze dienst kort niet bereikbaar is.",
+                "en": "Our security services. Protection on your devices keeps working even if this service is briefly unreachable."
+            },
+            "status": "ok",
+            "onderdelen": [
+                {
+                    "id": "security.dnsshield",
+                    "nl": "DNS Shield",
+                    "en": "DNS Shield",
+                    "status": "ok",
+                    "bron": "auto"
+                },
+                {
+                    "id": "security.apparaten",
+                    "nl": "Beveiliging van apparaten",
+                    "en": "Device protection",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "security.datalek",
+                    "nl": "Datalekbewaking",
+                    "en": "Breach monitoring",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "security.cyberapk",
+                    "nl": "Cyber-APK",
+                    "en": "Cyber check-up",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "security.dmarc",
+                    "nl": "DMARC-analyse",
+                    "en": "DMARC analysis",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "security.wachtwoord",
+                    "nl": "Wachtwoordmanager",
+                    "en": "Password manager",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "security.soc",
+                    "nl": "Meldkamer (SOC)",
+                    "en": "Security operations (SOC)",
+                    "status": "none",
+                    "bron": "handmatig"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "ai",
+            "nl": "AI-diensten",
+            "en": "AI services",
+            "icoon": "fa-microchip",
+            "info": {
+                "nl": "ZETA AI, de AI-diensten die wij zelf in Nederland draaien.",
+                "en": "ZETA AI, the AI services we run ourselves in the Netherlands."
+            },
+            "status": "none",
+            "onderdelen": [
+                {
+                    "id": "ai.zetaai",
+                    "nl": "ZETA AI",
+                    "en": "ZETA AI",
+                    "status": "none",
+                    "bron": "handmatig"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        },
+        {
+            "id": "support",
+            "nl": "Support",
+            "en": "Support",
+            "icoon": "fa-headset",
+            "info": {
+                "nl": "Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.",
+                "en": "How to reach us. During an outage the phone lines may be busy."
+            },
+            "status": "none",
+            "onderdelen": [
+                {
+                    "id": "support.telefoon",
+                    "nl": "Telefonisch",
+                    "en": "By phone",
+                    "status": "none",
+                    "bron": "handmatig"
+                },
+                {
+                    "id": "support.tickets",
+                    "nl": "Tickets en e-mail",
+                    "en": "Tickets and email",
+                    "status": "none",
+                    "bron": "handmatig"
+                }
+            ],
+            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnno",
+            "dagen_goed": 1,
+            "dagen_gemeten": 1
+        }
+    ],
+    "balk_start": "2026-08-18",
+    "actief": [],
+    "gepland": [
+        {
+            "id": "kpn-218bb0853be453147af83f3a85e45acd",
+            "bron": "leverancier",
+            "soort": "onderhoud",
+            "niveau": "maint",
+            "fase": "gepland",
+            "titel": {
+                "nl": "Onderhoud aan het telefonieplatform van KPN",
+                "en": "Maintenance on the KPN telephony platform"
+            },
+            "merkt": {
+                "nl": "Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.",
+                "en": "You will probably not notice anything. A call may drop for a few minutes."
+            },
+            "doen": {
+                "nl": "U hoeft niets te doen.",
+                "en": "You do not need to do anything."
+            },
+            "onderdelen": [
+                "telefonie.vast",
+                "telefonie.teams"
+            ],
+            "begint_op": "2026-11-16T22:00:00+00:00",
+            "eindigt_op": "2026-11-16T22:59:00+00:00",
+            "opgelost_op": null,
+            "volgende_update_op": null,
+            "updates": []
+        },
+        {
+            "id": "kpn-6b93c07083ec57d03d9b4ce16daad38c",
+            "bron": "leverancier",
+            "soort": "onderhoud",
+            "niveau": "maint",
+            "fase": "gepland",
+            "titel": {
+                "nl": "Onderhoud aan het telefonieplatform van KPN",
+                "en": "Maintenance on the KPN telephony platform"
+            },
+            "merkt": {
+                "nl": "Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.",
+                "en": "You will probably not notice anything. A call may drop for a few minutes."
+            },
+            "doen": {
+                "nl": "U hoeft niets te doen.",
+                "en": "You do not need to do anything."
+            },
+            "onderdelen": [
+                "telefonie.vast",
+                "telefonie.mobiel"
+            ],
+            "begint_op": "2026-11-17T06:00:00+00:00",
+            "eindigt_op": "2026-11-17T07:30:00+00:00",
+            "opgelost_op": null,
+            "volgende_update_op": null,
+            "updates": []
+        }
+    ],
+    "recent": [],
+    "site": {
+        "url": "https://status.zeta.nl",
+        "spiegel": "https://zetanl.github.io/status-site",
+        "portaal": "https://app.zeta.nl",
+        "support": "https://support.zeta.nl"
+    },
+    "inhoud": "09ad51300c075417"
+}

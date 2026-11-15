@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>ZETA Status</title>
+<link>https://status.zeta.nl/</link>
+<atom:link href="https://status.zeta.nl/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Storingen en gepland onderhoud bij ZETA</description>
+<language>nl</language>
+<item>
+<title>Onderhoud aan het telefonieplatform van KPN</title>
+<link>https://status.zeta.nl/#historie</link>
+<guid isPermaLink="false">zeta-status-kpn-218bb0853be453147af83f3a85e45acd-2026-11-16T22:00:00+00:00</guid>
+<pubDate>Mon, 16 Nov 2026 22:00:00 +0000</pubDate>
+<description>Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
+</item>
+<item>
+<title>Onderhoud aan het telefonieplatform van KPN</title>
+<link>https://status.zeta.nl/#historie</link>
+<guid isPermaLink="false">zeta-status-kpn-6b93c07083ec57d03d9b4ce16daad38c-2026-11-17T06:00:00+00:00</guid>
+<pubDate>Tue, 17 Nov 2026 06:00:00 +0000</pubDate>
+<description>Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
+</item>
+</channel>
+</rss>

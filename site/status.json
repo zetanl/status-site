@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-15T20:38:03+00:00",
+    "gegenereerd_op": "2026-11-15T20:40:22+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -345,14 +345,14 @@
                 "nl": "Back-ups van servers, Microsoft 365 en computers.",
                 "en": "Backups of servers, Microsoft 365 and computers."
             },
-            "status": "none",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "backup.servers",
                     "nl": "Back-up van servers en VPS",
                     "en": "Server and VPS backup",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "backup.m365",
@@ -559,5 +559,5 @@
         "portaal": "https://app.zeta.nl",
         "support": "https://support.zeta.nl"
     },
-    "inhoud": "c9684aea79deb120"
+    "inhoud": "0b4092061ac5cc02"
 }

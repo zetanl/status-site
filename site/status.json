@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-16T11:04:03+00:00",
+    "gegenereerd_op": "2026-11-16T11:10:32+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -474,8 +474,8 @@
             "onderdelen": [
                 {
                     "id": "support.telefoon",
-                    "nl": "Telefonisch",
-                    "en": "By phone",
+                    "nl": "Telefonisch contact met ZETA",
+                    "en": "Phone contact with ZETA",
                     "status": "ok",
                     "bron": "auto"
                 },
@@ -595,5 +595,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "64a26d9537509b48"
+    "inhoud": "ab1e5ad16793be62"
 }

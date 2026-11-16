@@ -93,10 +93,10 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
   <span class="lang"><a href="./"  aria-current="page"  lang="nl">NL</a><a href="en/"  lang="en">EN</a></span>
  </div>
   <div class="hero">
-  <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--ok);stroke-dashoffset:0" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
-   <i class="fas fa-check ok-ic"></i></div>
-  <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>Alles werkt normaal</h1><p class="sub">Er zijn op dit moment geen storingen bekend bij onze diensten.</p>
-   <div class="chk">Laatst bijgewerkt: <time id="gen" datetime="2026-11-16T03:43:05+00:00">16 nov. 2026, 04:43</time> · Tijden in Nederlandse tijd</div></div>
+  <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--part);stroke-dashoffset:22" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
+   <span class="n">11<small>/12</small></span></div>
+  <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>Er is een storing bij een deel van onze diensten</h1><p class="sub">Wij werken aan een oplossing. Hieronder ziet u welke diensten het raakt.</p>
+   <div class="chk">Laatst bijgewerkt: <time id="gen" datetime="2026-11-16T03:47:03+00:00">16 nov. 2026, 04:47</time> · Tijden in Nederlandse tijd</div></div>
  </div>
   <div class="hexdeco" aria-hidden="true"><span style="left:0;top:48px"><i class="fas fa-wifi"></i></span><span style="left:84px;top:0"><i class="fas fa-shield-halved"></i></span><span class="acc" style="left:84px;top:96px"><i class="fas fa-signal"></i></span><span style="left:168px;top:48px"><i class="fas fa-server"></i></span></div>
 </div></header>
@@ -430,10 +430,10 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
     <ul class="items"><li><span>Vaste telefonie (VoIP)<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li><li><span>Mobiel<span class="src">via leverancier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>Geen bekende verstoring</span></li><li><span>Bellen via Teams<span class="src">via leverancier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>Geen bekende verstoring</span></li><li><span>Nummerbehoud en overzetten<span class="src">via leverancier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>Geen bekende verstoring</span></li></ul>
    </div>
   </details>
-   <details class="g" >
+   <details class="g"  open >
    <summary><span class="gi" aria-hidden="true"><i class="fas fa-envelope"></i></span>
     <span><b>E-mail</b><small>4 onderdelen</small></span>
-    <span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></summary>
+    <span class="chip c-part"><i class="fas fa-triangle-exclamation"></i>Gedeeltelijke storing</span></summary>
    <div class="gb">
     <div class="bh"><span class="d90">90 dagen geleden</span><span class="d30">30 dagen geleden</span><span>Gemeten sinds 15 nov.</span></div>
     <div class="bar" role="img" aria-label="0 dagen zonder storing">
@@ -530,7 +530,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 </div>
     <div class="bh"><span></span><span>Vandaag</span></div>
     <p class="info">Zakelijke e-mail, e-mail bij uw website, e-mail versturen vanuit software en beveiligd mailen.</p>
-    <ul class="items"><li><span>Zakelijke e-mail<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li><li><span>E-mail bij webhosting<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li><li><span>E-mail versturen vanuit software<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li><li><span>Beveiligd mailen<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li></ul>
+    <ul class="items"><li><span>Zakelijke e-mail<span class="src">automatisch gemeten</span></span><span class="chip c-part"><i class="fas fa-triangle-exclamation"></i>Gedeeltelijke storing</span></li><li><span>E-mail bij webhosting<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li><li><span>E-mail versturen vanuit software<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li><li><span>Beveiligd mailen<span class="src">automatisch gemeten</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Werkt normaal</span></li></ul>
    </div>
   </details>
    <details class="g" >
@@ -1376,7 +1376,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
  <div class="fb"><span>&copy; 2026 ZETA&reg; · Ede, Nederland · <a href="https://www.zeta.nl">www.zeta.nl</a></span><span>Geen cookies, geen tracking.</span></div>
 </div></footer>
 <script>
-(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='efa43be2934757e7',o=document.getElementById('oud');
+(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='2b95a4015165d565',o=document.getElementById('oud');
 function oud(t){o.style.display=(Date.now()-Date.parse(t)>15*60*1000)?'block':'none'}oud(gen);
 var fmt=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
 setInterval(function(){fetch('status.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){if(j.inhoud!==hash){location.reload();return}gen=j.gegenereerd_op;g.setAttribute('datetime',gen);g.textContent=fmt.format(new Date(gen));oud(gen)}).catch(function(){oud(gen)})},60000);})();

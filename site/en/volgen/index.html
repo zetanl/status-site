@@ -78,7 +78,8 @@ summary b{display:block;color:var(--head);font-weight:650}summary small{color:va
 #oud{display:none;background:var(--warn-bg);color:var(--warn-ink);border-radius:11px;padding:10px 14px;font-size:.88rem}
 footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px;padding:26px 0;font-size:.84rem}
 .fg h4{margin:0 0 .5rem;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.fg p{margin:0 0 .3rem;color:var(--muted)}
-@media (max-width:560px){.tb:not(.cta){display:none}.top{gap:8px}.hero{gap:16px;padding:6px 0 26px}.meter{width:76px;height:76px}.meter .ok-ic{font-size:1.5rem}h1{font-size:1.45rem}.brand svg{height:26px}.hero{padding-bottom:34px}.mld{padding:14px}dl{grid-template-columns:1fr}dt{margin-top:4px}summary{padding:12px}.day{grid-template-columns:1fr;gap:2px}}
+.tb.cta .kort{display:none}.tb.cta{white-space:nowrap}
+@media (max-width:560px){.tb:not(.cta){display:none}.tb.cta .vol{display:none}.tb.cta .kort{display:inline}.top{flex-wrap:nowrap}.top .brand{min-width:0}.top{gap:8px}.hero{gap:16px;padding:6px 0 26px}.meter{width:76px;height:76px}.meter .ok-ic{font-size:1.5rem}h1{font-size:1.45rem}.brand svg{height:26px}.hero{padding-bottom:34px}.mld{padding:14px}dl{grid-template-columns:1fr}dt{margin-top:4px}summary{padding:12px}.day{grid-template-columns:1fr;gap:2px}}
 .fb{border-top:1px solid var(--line2);padding:14px 0;font-size:.78rem;color:var(--soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 </style>
 </head>
@@ -89,7 +90,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 <span>Status</span></a>
   <a class="tb" href="../../en/historie/">Past incidents</a>
   <a class="tb" href="https://app.zeta.nl">Report an issue</a>
-  <a class="tb cta" href="../../en/volgen/">Get updates</a>
+  <a class="tb cta" href="../../en/volgen/" aria-label="Get updates"><span class="vol">Get updates</span><span class="kort" aria-hidden="true">Updates</span></a>
   <span class="lang"><a href="../../volgen/"  lang="nl">NL</a><a href="../../en/volgen/"  aria-current="page"  lang="en">EN</a></span>
  </div>
   <div class="hero sub-hero"><div style="flex:1;min-width:0;max-width:640px"><p class="eb"><a href="../../en/./" style="color:inherit;text-decoration:none">&larr; ZETA Status</a></p><h1>Get updates</h1>

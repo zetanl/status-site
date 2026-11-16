@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-16T10:18:03+00:00",
+    "gegenereerd_op": "2026-11-16T10:28:02+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -163,8 +163,8 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopp",
-            "dagen_goed": 88,
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
             "dagen_gemeten": 90
         },
         {
@@ -595,5 +595,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "d6220ae9e600a41d"
+    "inhoud": "64a26d9537509b48"
 }

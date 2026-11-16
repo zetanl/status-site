@@ -7,27 +7,27 @@
 <atom:link href="https://status.zeta.nl/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Storingen en gepland onderhoud bij ZETA</description>
 <language>nl</language>
-<lastBuildDate>Mon, 16 Nov 2026 08:37:40 +0000</lastBuildDate>
+<lastBuildDate>Mon, 16 Nov 2026 08:47:03 +0000</lastBuildDate>
 <ttl>5</ttl>
 <item>
 <title>Gepland onderhoud (16 nov. 2026 23:00 tot 23:59): Onderhoud aan het telefonieplatform van KPN</title>
 <link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-218bb0853be453147af83f3a85e45acd-2026-11-16T22:00:00+00:00</guid>
-<pubDate>Mon, 16 Nov 2026 08:37:40 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 08:47:03 +0000</pubDate>
 <description>Wanneer: 16 nov. 2026 23:00 tot 23:59. Geraakt: Vaste telefonie (VoIP), Bellen via Teams. Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 <item>
 <title>Gepland onderhoud (17 nov. 2026 07:00 tot 08:30): Onderhoud aan het telefonieplatform van KPN</title>
 <link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-6b93c07083ec57d03d9b4ce16daad38c-2026-11-17T06:00:00+00:00</guid>
-<pubDate>Mon, 16 Nov 2026 08:37:40 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 08:47:03 +0000</pubDate>
 <description>Wanneer: 17 nov. 2026 07:00 tot 08:30. Geraakt: Vaste telefonie (VoIP), Mobiel. Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 <item>
 <title>Gepland onderhoud (17 nov. 2026 23:00 tot 18 nov. 2026 01:00): Onderhoud aan het telefonieplatform van KPN</title>
 <link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-90993bf583c897103d9b4ce16daad310-2026-11-17T22:00:00+00:00</guid>
-<pubDate>Mon, 16 Nov 2026 08:37:40 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 08:47:03 +0000</pubDate>
 <description>Wanneer: 17 nov. 2026 23:00 tot 18 nov. 2026 01:00. Geraakt: Vaste telefonie (VoIP). Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 </channel>

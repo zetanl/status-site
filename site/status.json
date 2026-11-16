@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-16T09:34:03+00:00",
+    "gegenereerd_op": "2026-11-16T09:37:26+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -38,9 +38,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "internet",
@@ -75,9 +75,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "telefonie",
@@ -119,9 +119,9 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "email",
@@ -163,9 +163,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnpp",
-            "dagen_goed": 0,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopp",
+            "dagen_goed": 88,
+            "dagen_gemeten": 90
         },
         {
             "id": "m365",
@@ -214,9 +214,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "domein",
@@ -258,9 +258,9 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "web",
@@ -295,9 +295,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "servers",
@@ -332,9 +332,9 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "backup",
@@ -369,9 +369,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "security",
@@ -434,9 +434,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "ai",
@@ -457,9 +457,9 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         },
         {
             "id": "support",
@@ -487,9 +487,9 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoo",
-            "dagen_goed": 2,
-            "dagen_gemeten": 2
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+            "dagen_goed": 90,
+            "dagen_gemeten": 90
         }
     ],
     "balk_start": "2026-08-19",
@@ -592,5 +592,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "efa43be2934757e7"
+    "inhoud": "3cec2e624fd5fe17"
 }

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://status.zeta.nl/assets/feed.css"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>ZETA Status</title>
@@ -6,26 +7,28 @@
 <atom:link href="https://status.zeta.nl/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Storingen en gepland onderhoud bij ZETA</description>
 <language>nl</language>
+<lastBuildDate>Mon, 16 Nov 2026 01:34:02 +0000</lastBuildDate>
+<ttl>5</ttl>
 <item>
-<title>Onderhoud aan het telefonieplatform van KPN</title>
-<link>https://status.zeta.nl/#historie</link>
+<title>Gepland onderhoud (16 nov. 2026 23:00 tot 23:59): Onderhoud aan het telefonieplatform van KPN</title>
+<link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-218bb0853be453147af83f3a85e45acd-2026-11-16T22:00:00+00:00</guid>
-<pubDate>Mon, 16 Nov 2026 22:00:00 +0000</pubDate>
-<description>Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
+<pubDate>Mon, 16 Nov 2026 01:34:02 +0000</pubDate>
+<description>Wanneer: 16 nov. 2026 23:00 tot 23:59. Geraakt: Vaste telefonie (VoIP), Bellen via Teams. Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 <item>
-<title>Onderhoud aan het telefonieplatform van KPN</title>
-<link>https://status.zeta.nl/#historie</link>
+<title>Gepland onderhoud (17 nov. 2026 07:00 tot 08:30): Onderhoud aan het telefonieplatform van KPN</title>
+<link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-6b93c07083ec57d03d9b4ce16daad38c-2026-11-17T06:00:00+00:00</guid>
-<pubDate>Tue, 17 Nov 2026 06:00:00 +0000</pubDate>
-<description>Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
+<pubDate>Mon, 16 Nov 2026 01:34:02 +0000</pubDate>
+<description>Wanneer: 17 nov. 2026 07:00 tot 08:30. Geraakt: Vaste telefonie (VoIP), Mobiel. Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 <item>
-<title>Onderhoud aan het telefonieplatform van KPN</title>
-<link>https://status.zeta.nl/#historie</link>
+<title>Gepland onderhoud (17 nov. 2026 23:00 tot 18 nov. 2026 01:00): Onderhoud aan het telefonieplatform van KPN</title>
+<link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-90993bf583c897103d9b4ce16daad310-2026-11-17T22:00:00+00:00</guid>
-<pubDate>Tue, 17 Nov 2026 22:00:00 +0000</pubDate>
-<description>Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
+<pubDate>Mon, 16 Nov 2026 01:34:02 +0000</pubDate>
+<description>Wanneer: 17 nov. 2026 23:00 tot 18 nov. 2026 01:00. Geraakt: Vaste telefonie (VoIP). Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 </channel>
 </rss>

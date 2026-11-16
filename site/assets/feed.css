@@ -1,0 +1,12 @@
+/* Opmaak van de RSS-feed in een browser (geen XSLT: dat verdwijnt uit Chrome). Alleen CSS, geen scripts. */
+rss{display:block;font-family:Inter,"Segoe UI",Arial,sans-serif;background:#f4f6f9;color:#1c3043;padding:24px 16px;max-width:760px;margin:0 auto;line-height:1.5}
+rss::before{content:"Dit is de RSS-feed van ZETA Status, bedoeld voor een RSS-lezer. Kopieer het adres uit de adresbalk en plak het in uw lezer. Uitleg: status.zeta.nl/volgen";display:block;background:#fff8e6;border:1px solid #f0dcaa;color:#5a4300;border-radius:8px;padding:12px 14px;margin-bottom:18px;font-size:15px}
+channel{display:block}
+channel>title{display:block;font-size:26px;font-weight:700;margin-bottom:2px}
+channel>description{display:block;color:#5f7183;margin-bottom:18px}
+channel>link,channel>language,channel>lastBuildDate,channel>ttl,item>link,item>guid{display:none}
+item{display:block;background:#fff;border:1px solid #dfe6ee;border-left:4px solid #f39c12;border-radius:10px;padding:14px 16px;margin-bottom:12px}
+item>title{display:block;font-weight:700;font-size:16px}
+item>pubDate{display:block;font-size:13px;color:#5f7183;margin:2px 0 6px}
+item>description{display:block;font-size:15px}
+@media (prefers-color-scheme:dark){rss{background:#0f1923;color:#e6edf3}rss::before{background:#2a2410;border-color:#5a4a1a;color:#f3dfa4}channel>description,item>pubDate{color:#9fb0c0}item{background:#16222e;border-color:#25384a;border-left-color:#f39c12}}

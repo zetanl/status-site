@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-16T09:49:04+00:00",
-    "kop": "part",
-    "groepen_ok": 11,
+    "gegenereerd_op": "2026-11-16T09:50:44+00:00",
+    "kop": "ok",
+    "groepen_ok": 12,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -132,13 +132,13 @@
                 "nl": "Zakelijke e-mail, e-mail bij uw website, e-mail versturen vanuit software en beveiligd mailen.",
                 "en": "Business email, email with your website, sending email from software and secure email."
             },
-            "status": "part",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "email.zakelijk",
                     "nl": "Zakelijke e-mail",
                     "en": "Business email",
-                    "status": "part",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -470,21 +470,21 @@
                 "nl": "Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.",
                 "en": "How to reach us. During an outage the phone lines may be busy."
             },
-            "status": "none",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "support.telefoon",
                     "nl": "Telefonisch",
                     "en": "By phone",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 },
                 {
                     "id": "support.tickets",
                     "nl": "Tickets en e-mail",
                     "en": "Tickets and email",
-                    "status": "none",
-                    "bron": "handmatig"
+                    "status": "ok",
+                    "bron": "auto"
                 }
             ],
             "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
@@ -515,6 +515,7 @@
             },
             "onderdelen": [
                 "telefonie.vast",
+                "support.telefoon",
                 "telefonie.teams"
             ],
             "begint_op": "2026-11-16T22:00:00+00:00",
@@ -543,6 +544,7 @@
             },
             "onderdelen": [
                 "telefonie.vast",
+                "support.telefoon",
                 "telefonie.mobiel"
             ],
             "begint_op": "2026-11-17T06:00:00+00:00",
@@ -570,7 +572,8 @@
                 "en": "You do not need to do anything."
             },
             "onderdelen": [
-                "telefonie.vast"
+                "telefonie.vast",
+                "support.telefoon"
             ],
             "begint_op": "2026-11-17T22:00:00+00:00",
             "eindigt_op": "2026-11-18T00:00:00+00:00",
@@ -592,5 +595,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "caadf10da3d83135"
+    "inhoud": "d6220ae9e600a41d"
 }

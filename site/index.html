@@ -104,7 +104,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
   <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--ok);stroke-dashoffset:0" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
    <i class="fas fa-check ok-ic"></i></div>
   <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>Alles werkt normaal</h1><p class="sub">Er zijn op dit moment geen storingen bekend bij onze diensten.</p>
-   <div class="chk">Laatst bijgewerkt: <time id="gen" datetime="2026-11-16T22:54:04+00:00">16 nov. 2026, 23:54</time> · Tijden in Nederlandse tijd</div></div>
+   <div class="chk">Laatst bijgewerkt: <time id="gen" datetime="2026-11-16T23:00:50+00:00">17 nov. 2026, 00:00</time> · Tijden in Nederlandse tijd</div></div>
  </div>
   <div class="hexdeco" aria-hidden="true"><span style="left:0;top:48px"><i class="fas fa-wifi"></i></span><span style="left:84px;top:0"><i class="fas fa-shield-halved"></i></span><span class="acc" style="left:84px;top:96px"><i class="fas fa-signal"></i></span><span style="left:168px;top:48px"><i class="fas fa-server"></i></span></div>
 </div></header>
@@ -430,8 +430,8 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 <i></i>
 <i></i>
 <i></i>
-<i></i>
 <i class="maint" title="ma. 16 nov. 2026: Onderhoud"></i>
+<i></i>
 </div>
     <div class="bh"><span></span><span>Vandaag</span></div>
     <p class="info">Vaste telefonie, mobiel en bellen via Microsoft Teams. Wij gebruiken hiervoor het netwerk van KPN.</p>
@@ -1357,8 +1357,8 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 <i></i>
 <i></i>
 <i></i>
-<i></i>
 <i class="maint" title="ma. 16 nov. 2026: Onderhoud"></i>
+<i></i>
 </div>
     <div class="bh"><span></span><span>Vandaag</span></div>
     <p class="info">Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.</p>
@@ -1385,7 +1385,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
  <div class="fb"><span>&copy; 2026 ZETA&reg; · Ede, Nederland · <a href="https://www.zeta.nl">www.zeta.nl</a></span><span>Geen cookies, geen tracking.</span></div>
 </div></footer>
 <script>
-(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='fed26181b291dad3',o=document.getElementById('oud');
+(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='2c3bbd00dd21ddfd',o=document.getElementById('oud');
 function oud(t){o.style.display=(Date.now()-Date.parse(t)>15*60*1000)?'block':'none'}oud(gen);
 var fmt=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
 setInterval(function(){fetch('status.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){if(j.inhoud!==hash){location.reload();return}gen=j.gegenereerd_op;g.setAttribute('datetime',gen);g.textContent=fmt.format(new Date(gen));oud(gen)}).catch(function(){oud(gen)})},60000);})();

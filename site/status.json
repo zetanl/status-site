@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-17T22:53:02+00:00",
+    "gegenereerd_op": "2026-11-17T23:00:58+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -119,7 +119,7 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooomm",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommo",
             "dagen_goed": 90,
             "dagen_gemeten": 90
         },
@@ -163,7 +163,7 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopo",
             "dagen_goed": 89,
             "dagen_gemeten": 90
         },
@@ -487,12 +487,12 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooomm",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommo",
             "dagen_goed": 90,
             "dagen_gemeten": 90
         }
     ],
-    "balk_start": "2026-08-20",
+    "balk_start": "2026-08-21",
     "actief": [],
     "gepland": [
         {
@@ -537,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "02cafe1992c8a80c"
+    "inhoud": "f513b19bd5910c53"
 }

@@ -101,10 +101,10 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
   <span class="lang"><a href=".././"  lang="nl">NL</a><a href="../en/"  aria-current="page"  lang="en">EN</a></span>
  </div>
   <div class="hero">
-  <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--ok);stroke-dashoffset:0" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
-   <i class="fas fa-check ok-ic"></i></div>
-  <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>All services are running normally</h1><p class="sub">We are not aware of any issues affecting our services.</p>
-   <div class="chk">Last updated: <time id="gen" datetime="2026-11-17T21:53:03+00:00">17 Nov 2026, 22:53</time> · Times in Dutch time (CET)</div></div>
+  <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--maint);stroke-dashoffset:44" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
+   <span class="n">10<small>/12</small></span></div>
+  <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>Maintenance in progress</h1><p class="sub">Some of our services may be briefly interrupted.</p>
+   <div class="chk">Last updated: <time id="gen" datetime="2026-11-17T22:00:57+00:00">17 Nov 2026, 23:00</time> · Times in Dutch time (CET)</div></div>
  </div>
   <div class="hexdeco" aria-hidden="true"><span style="left:0;top:48px"><i class="fas fa-wifi"></i></span><span style="left:84px;top:0"><i class="fas fa-shield-halved"></i></span><span class="acc" style="left:84px;top:96px"><i class="fas fa-signal"></i></span><span style="left:168px;top:48px"><i class="fas fa-server"></i></span></div>
 </div></header>
@@ -112,12 +112,17 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 <main class="wrap">
   <div id="oud" role="status">This information may be out of date. Please also check our backup address: <a href="https://status-zeta.monitoringit.nl">status-zeta.monitoringit.nl</a></div>
 
+  <section id="actief"><h2 class="sh att">Active incident</h2><div style="display:grid;gap:12px">
+   <article class="card mld maint">
+   <div class="meta"><span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance in progress</span>
+    <span>Affected: Fixed-line (VoIP), Phone contact with ZETA</span></div>
+   <h3>Maintenance on the KPN telephony platform</h3>
+   <div class="meta"><span>Started 17 Nov 2026, 23:00</span></div>
+   <dl><dt>What you may notice</dt><dd>You will probably not notice anything. A call may drop for a few minutes.</dd> <dt>What you can do</dt><dd>You do not need to do anything.</dd></dl>
+     </article>
+ </div></section>
  
   <section id="gepland"><h2 class="sh">Planned maintenance</h2><div style="display:grid;gap:12px">
-   <article class="card mld maint"><div class="meta"><span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance</span><span>Affected: Fixed-line (VoIP), Phone contact with ZETA</span></div>
-   <h3>Maintenance on the KPN telephony platform</h3>
-   <dl><dt>When</dt><dd>17 Nov 2026, 23:00 to 18 Nov 2026, 01:00</dd><dt>What you may notice</dt><dd>You will probably not notice anything. A call may drop for a few minutes.</dd> <dt>What you can do</dt><dd>You do not need to do anything.</dd></dl>
-  </article>
    <article class="card mld maint"><div class="meta"><span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance</span><span>Affected: Fixed-line (VoIP), Phone contact with ZETA</span></div>
    <h3>Maintenance on the KPN telephony platform</h3>
    <dl><dt>When</dt><dd>18 Nov 2026, 17:15 to 17:45</dd><dt>What you may notice</dt><dd>You will probably not notice anything. A call may drop for a few minutes.</dd> <dt>What you can do</dt><dd>You do not need to do anything.</dd></dl>
@@ -331,10 +336,10 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
     <ul class="items"><li><span>ZETA Fibre<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Business internet via partners<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Backup connection 4G/5G<span class="src">updated manually</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li></ul>
    </div>
   </details>
-   <details class="g" >
+   <details class="g"  open >
    <summary><span class="gi" aria-hidden="true"><i class="fas fa-phone"></i></span>
     <span><b>Telephony</b><small>4 components</small></span>
-    <span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></summary>
+    <span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance</span></summary>
    <div class="gb">
     <div class="bh"><span class="d90">90 days ago</span><span class="d30">30 days ago</span><span>90 of 90 days without incidents</span></div>
     <div class="bar" role="img" aria-label="90 days without incidents">
@@ -431,7 +436,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 </div>
     <div class="bh"><span></span><span>Today</span></div>
     <p class="info">Fixed-line, mobile and calling via Microsoft Teams. We use the KPN network for this.</p>
-    <ul class="items"><li><span>Fixed-line (VoIP)<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Mobile<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Calling via Teams<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Number porting<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li></ul>
+    <ul class="items"><li><span>Fixed-line (VoIP)<span class="src">measured automatically</span></span><span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance</span></li><li><span>Mobile<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Calling via Teams<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Number porting<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li></ul>
    </div>
   </details>
    <details class="g" >
@@ -1258,10 +1263,10 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
     <ul class="items"><li><span>ZETA AI<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li></ul>
    </div>
   </details>
-   <details class="g" >
+   <details class="g"  open >
    <summary><span class="gi" aria-hidden="true"><i class="fas fa-headset"></i></span>
     <span><b>Support</b><small>2 components</small></span>
-    <span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></summary>
+    <span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance</span></summary>
    <div class="gb">
     <div class="bh"><span class="d90">90 days ago</span><span class="d30">30 days ago</span><span>90 of 90 days without incidents</span></div>
     <div class="bar" role="img" aria-label="90 days without incidents">
@@ -1358,7 +1363,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 </div>
     <div class="bh"><span></span><span>Today</span></div>
     <p class="info">How to reach us. During an outage the phone lines may be busy.</p>
-    <ul class="items"><li><span>Phone contact with ZETA<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Tickets and email<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li></ul>
+    <ul class="items"><li><span>Phone contact with ZETA<span class="src">measured automatically</span></span><span class="chip c-maint"><i class="fas fa-screwdriver-wrench"></i>Maintenance</span></li><li><span>Tickets and email<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li></ul>
    </div>
   </details>
   </div></section>
@@ -1381,7 +1386,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
  <div class="fb"><span>&copy; 2026 ZETA&reg; · Ede, Nederland · <a href="https://www.zeta.nl">www.zeta.nl</a></span><span>No cookies, no tracking.</span></div>
 </div></footer>
 <script>
-(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='7b28f099f5f0f2eb',o=document.getElementById('oud');
+(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='c4ac4d8f4b78d116',o=document.getElementById('oud');
 function oud(t){o.style.display=(Date.now()-Date.parse(t)>15*60*1000)?'block':'none'}oud(gen);
 var fmt=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Amsterdam',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
 setInterval(function(){fetch('../status.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){if(j.inhoud!==hash){location.reload();return}gen=j.gegenereerd_op;g.setAttribute('datetime',gen);g.textContent=fmt.format(new Date(gen));oud(gen)}).catch(function(){oud(gen)})},60000);})();

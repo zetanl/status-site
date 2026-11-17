@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-17T21:53:03+00:00",
-    "kop": "ok",
-    "groepen_ok": 12,
+    "gegenereerd_op": "2026-11-17T22:00:57+00:00",
+    "kop": "maint",
+    "groepen_ok": 10,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -88,13 +88,13 @@
                 "nl": "Vaste telefonie, mobiel en bellen via Microsoft Teams. Wij gebruiken hiervoor het netwerk van KPN.",
                 "en": "Fixed-line, mobile and calling via Microsoft Teams. We use the KPN network for this."
             },
-            "status": "ok",
+            "status": "maint",
             "onderdelen": [
                 {
                     "id": "telefonie.vast",
                     "nl": "Vaste telefonie (VoIP)",
                     "en": "Fixed-line (VoIP)",
-                    "status": "ok",
+                    "status": "maint",
                     "bron": "auto"
                 },
                 {
@@ -470,13 +470,13 @@
                 "nl": "Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.",
                 "en": "How to reach us. During an outage the phone lines may be busy."
             },
-            "status": "ok",
+            "status": "maint",
             "onderdelen": [
                 {
                     "id": "support.telefoon",
                     "nl": "Telefonisch contact met ZETA",
                     "en": "Phone contact with ZETA",
-                    "status": "ok",
+                    "status": "maint",
                     "bron": "auto"
                 },
                 {
@@ -493,8 +493,7 @@
         }
     ],
     "balk_start": "2026-08-20",
-    "actief": [],
-    "gepland": [
+    "actief": [
         {
             "id": "kpn-90993bf583c897103d9b4ce16daad310",
             "bron": "leverancier",
@@ -522,7 +521,9 @@
             "opgelost_op": null,
             "volgende_update_op": null,
             "updates": []
-        },
+        }
+    ],
+    "gepland": [
         {
             "id": "kpn-e44cf7103b2a83107af83f3a85e45ac9",
             "bron": "leverancier",
@@ -565,5 +566,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "7b28f099f5f0f2eb"
+    "inhoud": "c4ac4d8f4b78d116"
 }

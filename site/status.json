@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-18T12:55:31+00:00",
-    "kop": "ok",
-    "groepen_ok": 12,
+    "gegenereerd_op": "2026-11-18T13:01:05+00:00",
+    "kop": "part",
+    "groepen_ok": 10,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -51,13 +51,13 @@
                 "nl": "Uw internetverbinding via ZETA Glasvezel of via onze partners, en de reserveverbinding.",
                 "en": "Your internet connection via ZETA Fibre or our partners, and the backup connection."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "internet.glasvezel",
                     "nl": "ZETA Glasvezel",
                     "en": "ZETA Fibre",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -75,8 +75,8 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
-            "dagen_goed": 90,
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
+            "dagen_goed": 89,
             "dagen_gemeten": 90
         },
         {
@@ -308,7 +308,7 @@
                 "nl": "VPS en servers in onze datacenters in Ede, en cloudservers bij onze partner.",
                 "en": "VPS and servers in our data centres in Ede, and cloud servers at our partner."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "servers.vps",
@@ -321,7 +321,7 @@
                     "id": "servers.datacenter",
                     "nl": "Servers en datacenter",
                     "en": "Servers and data centre",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -332,8 +332,8 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
-            "dagen_goed": 90,
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
+            "dagen_goed": 89,
             "dagen_gemeten": 90
         },
         {
@@ -537,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "f513b19bd5910c53"
+    "inhoud": "1b67321b9313f135"
 }

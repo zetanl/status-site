@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-18T22:57:03+00:00",
+    "gegenereerd_op": "2026-11-18T23:01:02+00:00",
     "kop": "part",
     "groepen_ok": 11,
     "groepen_totaal": 12,
@@ -75,7 +75,7 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopo",
             "dagen_goed": 89,
             "dagen_gemeten": 90
         },
@@ -119,7 +119,7 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommm",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmo",
             "dagen_goed": 90,
             "dagen_gemeten": 90
         },
@@ -163,7 +163,7 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopp",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppo",
             "dagen_goed": 88,
             "dagen_gemeten": 90
         },
@@ -332,7 +332,7 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopo",
             "dagen_goed": 89,
             "dagen_gemeten": 90
         },
@@ -369,8 +369,8 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
-            "dagen_goed": 89,
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopp",
+            "dagen_goed": 88,
             "dagen_gemeten": 90
         },
         {
@@ -487,12 +487,12 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommm",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmo",
             "dagen_goed": 90,
             "dagen_gemeten": 90
         }
     ],
-    "balk_start": "2026-08-21",
+    "balk_start": "2026-08-22",
     "actief": [],
     "gepland": [],
     "recent": [],
@@ -508,5 +508,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "373f959fa81455be"
+    "inhoud": "2adac6abd4f44e7c"
 }

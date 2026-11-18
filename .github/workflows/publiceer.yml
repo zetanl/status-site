@@ -13,6 +13,9 @@ permissions:
 jobs:
   pages:
     runs-on: ubuntu-latest
+    # Reservekopie (GitHub Pages). Een storing bij GitHub ("Fetching artifact metadata failed") is geen reden voor een
+    # foutmelding: status.zeta.nl zelf komt via de cloudflare-job, die wel meldt als hij mislukt (18-11-2026).
+    continue-on-error: true
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

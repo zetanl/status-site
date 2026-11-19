@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-19T16:34:03+00:00",
-    "kop": "part",
-    "groepen_ok": 11,
+    "gegenereerd_op": "2026-11-19T16:37:59+00:00",
+    "kop": "ok",
+    "groepen_ok": 12,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -308,13 +308,13 @@
                 "nl": "VPS en servers in onze datacenters in Ede, en cloudservers bij onze partner.",
                 "en": "VPS and servers in our data centres in Ede, and cloud servers at our partner."
             },
-            "status": "part",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "servers.vps",
                     "nl": "VPS",
                     "en": "VPS",
-                    "status": "part",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -508,5 +508,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "1924b24a69192f5c"
+    "inhoud": "b2636104b6957388"
 }

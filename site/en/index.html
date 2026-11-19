@@ -101,10 +101,10 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
   <span class="lang"><a href=".././"  lang="nl">NL</a><a href="../en/"  aria-current="page"  lang="en">EN</a></span>
  </div>
   <div class="hero">
-  <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--ok);stroke-dashoffset:0" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
-   <i class="fas fa-check ok-ic"></i></div>
-  <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>All services are running normally</h1><p class="sub">We are not aware of any issues affecting our services.</p>
-   <div class="chk">Last updated: <time id="gen" datetime="2026-11-19T15:34:03+00:00">19 Nov 2026, 16:34</time> · Times in Dutch time (CET)</div></div>
+  <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--part);stroke-dashoffset:22" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
+   <span class="n">11<small>/12</small></span></div>
+  <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>Some of our services have an issue</h1><p class="sub">We are working on a fix. See below which services are affected.</p>
+   <div class="chk">Last updated: <time id="gen" datetime="2026-11-19T15:39:04+00:00">19 Nov 2026, 16:39</time> · Times in Dutch time (CET)</div></div>
  </div>
   <div class="hexdeco" aria-hidden="true"><span style="left:0;top:48px"><i class="fas fa-wifi"></i></span><span style="left:84px;top:0"><i class="fas fa-shield-halved"></i></span><span class="acc" style="left:84px;top:96px"><i class="fas fa-signal"></i></span><span style="left:168px;top:48px"><i class="fas fa-server"></i></span></div>
 </div></header>
@@ -424,13 +424,13 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
     <ul class="items"><li><span>Fixed-line (VoIP)<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Mobile<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Calling via Teams<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li><li><span>Number porting<span class="src">via supplier</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li></ul>
    </div>
   </details>
-   <details class="g" >
+   <details class="g"  open >
    <summary><span class="gi" aria-hidden="true"><i class="fas fa-envelope"></i></span>
     <span><b>Email</b><small>4 components</small></span>
-    <span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></summary>
+    <span class="chip c-part"><i class="fas fa-triangle-exclamation"></i>Partial outage</span></summary>
    <div class="gb">
-    <div class="bh"><span class="d90">90 days ago</span><span class="d30">30 days ago</span><span>88 of 90 days without incidents</span></div>
-    <div class="bar" role="img" aria-label="88 days without incidents">
+    <div class="bh"><span class="d90">90 days ago</span><span class="d30">30 days ago</span><span>87 of 90 days without incidents</span></div>
+    <div class="bar" role="img" aria-label="87 days without incidents">
 <i></i>
 <i></i>
 <i></i>
@@ -520,11 +520,11 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 <i></i>
 <i class="part" title="Tue 17 Nov 2026: Partial outage"></i>
 <i class="part" title="Wed 18 Nov 2026: Partial outage"></i>
-<i></i>
+<i class="part" title="Thu 19 Nov 2026: Partial outage"></i>
 </div>
     <div class="bh"><span></span><span>Today</span></div>
     <p class="info">Business email, email with your website, sending email from software and secure email.</p>
-    <ul class="items"><li><span>Business email<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Email with web hosting<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Sending email from software<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Secure email<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li></ul>
+    <ul class="items"><li><span>Business email<span class="src">measured automatically</span></span><span class="chip c-part"><i class="fas fa-triangle-exclamation"></i>Partial outage</span></li><li><span>Email with web hosting<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Sending email from software<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Secure email<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li></ul>
    </div>
   </details>
    <details class="g" >
@@ -1371,7 +1371,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
  <div class="fb"><span>&copy; 2026 ZETA&reg; · Ede, Nederland · <a href="https://www.zeta.nl">www.zeta.nl</a></span><span>No cookies, no tracking.</span></div>
 </div></footer>
 <script>
-(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='e307069c50802b9d',o=document.getElementById('oud');
+(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='bc1962300cb6399a',o=document.getElementById('oud');
 function oud(t){o.style.display=(Date.now()-Date.parse(t)>15*60*1000)?'block':'none'}oud(gen);
 var fmt=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Amsterdam',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
 setInterval(function(){fetch('../status.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){if(j.inhoud!==hash){location.reload();return}gen=j.gegenereerd_op;g.setAttribute('datetime',gen);g.textContent=fmt.format(new Date(gen));oud(gen)}).catch(function(){oud(gen)})},60000);})();

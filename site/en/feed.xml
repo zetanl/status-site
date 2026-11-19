@@ -7,7 +7,14 @@
 <atom:link href="https://status.zeta.nl/en/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Incidents and planned maintenance at ZETA</description>
 <language>en</language>
-<lastBuildDate>Thu, 19 Nov 2026 08:33:05 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 08:40:33 +0000</lastBuildDate>
 <ttl>5</ttl>
+<item>
+<title>Incident: Issue at KPN</title>
+<link>https://status.zeta.nl/en/#actief</link>
+<guid isPermaLink="false">zeta-status-kpn-efb34813c320d710843ef41a05013145-2026-11-19T08:30:00+00:00</guid>
+<pubDate>Thu, 19 Nov 2026 08:30:00 +0000</pubDate>
+<description>Started: 19 Nov 2026 09:30. Affected: Fixed-line (VoIP), Phone contact with ZETA. Some telephony or connections may be affected. This is at KPN. We are following it and will report when it is resolved.</description>
+</item>
 </channel>
 </rss>

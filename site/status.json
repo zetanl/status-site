@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-19T08:33:05+00:00",
+    "gegenereerd_op": "2026-11-19T08:40:33+00:00",
     "kop": "part",
-    "groepen_ok": 11,
+    "groepen_ok": 9,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -88,13 +88,13 @@
                 "nl": "Vaste telefonie, mobiel en bellen via Microsoft Teams. Wij gebruiken hiervoor het netwerk van KPN.",
                 "en": "Fixed-line, mobile and calling via Microsoft Teams. We use the KPN network for this."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "telefonie.vast",
                     "nl": "Vaste telefonie (VoIP)",
                     "en": "Fixed-line (VoIP)",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -119,8 +119,8 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmo",
-            "dagen_goed": 90,
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmp",
+            "dagen_goed": 89,
             "dagen_gemeten": 90
         },
         {
@@ -470,13 +470,13 @@
                 "nl": "Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.",
                 "en": "How to reach us. During an outage the phone lines may be busy."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "support.telefoon",
                     "nl": "Telefonisch contact met ZETA",
                     "en": "Phone contact with ZETA",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -487,13 +487,42 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmo",
-            "dagen_goed": 90,
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmp",
+            "dagen_goed": 89,
             "dagen_gemeten": 90
         }
     ],
     "balk_start": "2026-08-22",
-    "actief": [],
+    "actief": [
+        {
+            "id": "kpn-efb34813c320d710843ef41a05013145",
+            "bron": "leverancier",
+            "soort": "storing",
+            "niveau": "part",
+            "fase": "onderzoek",
+            "titel": {
+                "nl": "Storing bij KPN",
+                "en": "Issue at KPN"
+            },
+            "merkt": {
+                "nl": "Een deel van de telefonie of verbindingen kan verstoord zijn. Dit ligt bij KPN. Wij volgen het en melden het als het is opgelost.",
+                "en": "Some telephony or connections may be affected. This is at KPN. We are following it and will report when it is resolved."
+            },
+            "doen": {
+                "nl": "U hoeft niets te doen.",
+                "en": "You do not need to do anything."
+            },
+            "onderdelen": [
+                "telefonie.vast",
+                "support.telefoon"
+            ],
+            "begint_op": "2026-11-19T08:30:00+00:00",
+            "eindigt_op": null,
+            "opgelost_op": null,
+            "volgende_update_op": null,
+            "updates": []
+        }
+    ],
     "gepland": [],
     "recent": [],
     "historie": [],
@@ -508,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "2adac6abd4f44e7c"
+    "inhoud": "b09a9f4f23f4d288"
 }

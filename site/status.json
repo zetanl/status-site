@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-20T04:53:03+00:00",
+    "gegenereerd_op": "2026-11-20T05:02:00+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -402,7 +402,7 @@
                     "id": "security.datalek",
                     "nl": "Datalekbewaking",
                     "en": "Breach monitoring",
-                    "status": "ok",
+                    "status": "none",
                     "bron": "auto"
                 },
                 {
@@ -508,5 +508,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "b75ae532cf769c40"
+    "inhoud": "e2d55f1b0ec1b116"
 }

@@ -7,7 +7,14 @@
 <atom:link href="https://status.zeta.nl/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Storingen en gepland onderhoud bij ZETA</description>
 <language>nl</language>
-<lastBuildDate>Fri, 20 Nov 2026 22:01:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 22:07:06 +0000</lastBuildDate>
 <ttl>5</ttl>
+<item>
+<title>Storing: Verstoring bij Microsoft</title>
+<link>https://status.zeta.nl/#actief</link>
+<guid isPermaLink="false">zeta-status-lev-microsoft-2026-11-20T22:07:00+00:00</guid>
+<pubDate>Fri, 20 Nov 2026 22:07:00 +0000</pubDate>
+<description>Begonnen: 20 nov. 2026 23:07. Geraakt: Outlook en Exchange. Dit ligt bij onze leverancier Microsoft. Wij volgen het en melden het als het is opgelost.</description>
+</item>
 </channel>
 </rss>

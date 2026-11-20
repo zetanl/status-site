@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-20T16:09:02+00:00",
+    "gegenereerd_op": "2026-11-20T16:11:03+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -493,7 +493,35 @@
         }
     ],
     "balk_start": "2026-08-23",
-    "actief": [],
+    "actief": [
+        {
+            "id": "lev-microsoft",
+            "bron": "leverancier",
+            "soort": "storing",
+            "niveau": "warn",
+            "fase": "onderzoek",
+            "titel": {
+                "nl": "Verstoring bij Microsoft",
+                "en": "Issue at Microsoft"
+            },
+            "merkt": {
+                "nl": "Dit ligt bij onze leverancier Microsoft. Wij volgen het en melden het als het is opgelost.",
+                "en": "This is at our supplier Microsoft. We are following it and will report when it is resolved."
+            },
+            "doen": {
+                "nl": "U hoeft niets te doen.",
+                "en": "You do not need to do anything."
+            },
+            "onderdelen": [
+                "m365.outlook"
+            ],
+            "begint_op": "2026-11-20T16:11:00+00:00",
+            "eindigt_op": null,
+            "opgelost_op": null,
+            "volgende_update_op": null,
+            "updates": []
+        }
+    ],
     "gepland": [],
     "recent": [],
     "historie": [],
@@ -508,5 +536,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "549f2425ad01501f"
+    "inhoud": "d91f8ca89f940432"
 }

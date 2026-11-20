@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-20T16:11:03+00:00",
-    "kop": "ok",
-    "groepen_ok": 12,
+    "gegenereerd_op": "2026-11-20T16:12:03+00:00",
+    "kop": "warn",
+    "groepen_ok": 11,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -176,13 +176,13 @@
                 "nl": "Deze diensten draaien bij Microsoft. Wij tonen wat Microsoft meldt en wat dat voor u betekent.",
                 "en": "These services run at Microsoft. We show what Microsoft reports and what it means for you."
             },
-            "status": "ok",
+            "status": "warn",
             "onderdelen": [
                 {
                     "id": "m365.outlook",
                     "nl": "Outlook en Exchange",
                     "en": "Outlook and Exchange",
-                    "status": "none",
+                    "status": "warn",
                     "bron": "leverancier"
                 },
                 {
@@ -214,8 +214,8 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
-            "dagen_goed": 90,
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooow",
+            "dagen_goed": 89,
             "dagen_gemeten": 90
         },
         {
@@ -536,5 +536,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "d91f8ca89f940432"
+    "inhoud": "b80307a6acfa88fd"
 }

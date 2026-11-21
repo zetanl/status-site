@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-21T07:48:03+00:00",
-    "kop": "part",
-    "groepen_ok": 10,
+    "gegenereerd_op": "2026-11-21T07:52:03+00:00",
+    "kop": "warn",
+    "groepen_ok": 11,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -271,20 +271,20 @@
                 "nl": "Webhosting, WordPress en het doorsturen van websites.",
                 "en": "Web hosting, WordPress and website redirects."
             },
-            "status": "part",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "web.hosting",
                     "nl": "Webhosting",
                     "en": "Web hosting",
-                    "status": "part",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
                     "id": "web.wordpress",
                     "nl": "WordPress",
                     "en": "WordPress",
-                    "status": "part",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -536,5 +536,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "a5c4bca724d5cbb1"
+    "inhoud": "ca9d6664624e68f2"
 }

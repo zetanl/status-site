@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-21T07:34:03+00:00",
-    "kop": "warn",
-    "groepen_ok": 11,
+    "gegenereerd_op": "2026-11-21T07:43:04+00:00",
+    "kop": "part",
+    "groepen_ok": 9,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -132,7 +132,7 @@
                 "nl": "Zakelijke e-mail, e-mail bij uw website, e-mail versturen vanuit software en beveiligd mailen.",
                 "en": "Business email, email with your website, sending email from software and secure email."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "email.zakelijk",
@@ -145,7 +145,7 @@
                     "id": "email.hosting",
                     "nl": "E-mail bij webhosting",
                     "en": "Email with web hosting",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -163,8 +163,8 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppppo",
-            "dagen_goed": 86,
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppppp",
+            "dagen_goed": 85,
             "dagen_gemeten": 90
         },
         {
@@ -271,20 +271,20 @@
                 "nl": "Webhosting, WordPress en het doorsturen van websites.",
                 "en": "Web hosting, WordPress and website redirects."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "web.hosting",
                     "nl": "Webhosting",
                     "en": "Web hosting",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
                     "id": "web.wordpress",
                     "nl": "WordPress",
                     "en": "WordPress",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -295,8 +295,8 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
-            "dagen_goed": 90,
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop",
+            "dagen_goed": 89,
             "dagen_gemeten": 90
         },
         {
@@ -536,5 +536,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "72f01316edbd6f63"
+    "inhoud": "16abf9b6528d745b"
 }

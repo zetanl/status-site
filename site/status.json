@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-23T22:00:50+00:00",
+    "gegenereerd_op": "2026-11-23T22:03:03+00:00",
     "kop": "part",
-    "groepen_ok": 9,
+    "groepen_ok": 11,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -88,13 +88,13 @@
                 "nl": "Vaste telefonie, mobiel en bellen via Microsoft Teams. Wij gebruiken hiervoor het netwerk van KPN.",
                 "en": "Fixed-line, mobile and calling via Microsoft Teams. We use the KPN network for this."
             },
-            "status": "maint",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "telefonie.vast",
                     "nl": "Vaste telefonie (VoIP)",
                     "en": "Fixed-line (VoIP)",
-                    "status": "maint",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -470,13 +470,13 @@
                 "nl": "Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.",
                 "en": "How to reach us. During an outage the phone lines may be busy."
             },
-            "status": "maint",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "support.telefoon",
                     "nl": "Telefonisch contact met ZETA",
                     "en": "Phone contact with ZETA",
-                    "status": "maint",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -493,36 +493,7 @@
         }
     ],
     "balk_start": "2026-08-26",
-    "actief": [
-        {
-            "id": "kpn-884c56a39764d71006daf8ece053af30",
-            "bron": "leverancier",
-            "soort": "onderhoud",
-            "niveau": "maint",
-            "fase": "gepland",
-            "titel": {
-                "nl": "Onderhoud aan het telefonieplatform van KPN",
-                "en": "Maintenance on the KPN telephony platform"
-            },
-            "merkt": {
-                "nl": "Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.",
-                "en": "You will probably not notice anything. A call may drop for a few minutes."
-            },
-            "doen": {
-                "nl": "U hoeft niets te doen.",
-                "en": "You do not need to do anything."
-            },
-            "onderdelen": [
-                "telefonie.vast",
-                "support.telefoon"
-            ],
-            "begint_op": "2026-11-23T22:00:00+00:00",
-            "eindigt_op": "2026-11-24T00:00:00+00:00",
-            "opgelost_op": null,
-            "volgende_update_op": null,
-            "updates": []
-        }
-    ],
+    "actief": [],
     "gepland": [
         {
             "id": "kpn-cff9bea03b6c13d08b133f3a85e45a33",
@@ -566,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "9247d57256ea5bc2"
+    "inhoud": "c76d56d3730b0c36"
 }

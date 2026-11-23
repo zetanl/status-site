@@ -7,13 +7,13 @@
 <atom:link href="https://status.zeta.nl/en/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Incidents and planned maintenance at ZETA</description>
 <language>en</language>
-<lastBuildDate>Mon, 23 Nov 2026 10:37:51 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 10:47:05 +0000</lastBuildDate>
 <ttl>5</ttl>
 <item>
 <title>Planned maintenance (23 Nov 2026 23:00 to 24 Nov 2026 01:00): Maintenance on the KPN telephony platform</title>
 <link>https://status.zeta.nl/en/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-884c56a39764d71006daf8ece053af30-2026-11-23T22:00:00+00:00</guid>
-<pubDate>Mon, 23 Nov 2026 10:37:51 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 10:47:05 +0000</pubDate>
 <description>When: 23 Nov 2026 23:00 to 24 Nov 2026 01:00. Affected: Fixed-line (VoIP), Phone contact with ZETA. You will probably not notice anything. A call may drop for a few minutes.</description>
 </item>
 </channel>

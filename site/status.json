@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-23T00:13:04+00:00",
+    "gegenereerd_op": "2026-11-23T00:24:24+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -51,13 +51,13 @@
                 "nl": "Uw internetverbinding via ZETA Glasvezel of via onze partners, en de reserveverbinding.",
                 "en": "Your internet connection via ZETA Fibre or our partners, and the backup connection."
             },
-            "status": "ok",
+            "status": "none",
             "onderdelen": [
                 {
                     "id": "internet.glasvezel",
                     "nl": "ZETA Glasvezel",
                     "en": "ZETA Fibre",
-                    "status": "ok",
+                    "status": "none",
                     "bron": "auto"
                 },
                 {
@@ -321,7 +321,7 @@
                     "id": "servers.datacenter",
                     "nl": "Servers en datacenter",
                     "en": "Servers and data centre",
-                    "status": "ok",
+                    "status": "none",
                     "bron": "auto"
                 },
                 {
@@ -537,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "fd470d0aec49a635"
+    "inhoud": "83078fb62507cb9b"
 }

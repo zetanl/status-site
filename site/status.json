@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-24T05:23:03+00:00",
+    "gegenereerd_op": "2026-11-24T05:33:03+00:00",
     "kop": "part",
-    "groepen_ok": 11,
+    "groepen_ok": 10,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -132,13 +132,13 @@
                 "nl": "Zakelijke e-mail, e-mail bij uw website, e-mail versturen vanuit software en beveiligd mailen.",
                 "en": "Business email, email with your website, sending email from software and secure email."
             },
-            "status": "ok",
+            "status": "part",
             "onderdelen": [
                 {
                     "id": "email.zakelijk",
                     "nl": "Zakelijke e-mail",
                     "en": "Business email",
-                    "status": "ok",
+                    "status": "part",
                     "bron": "auto"
                 },
                 {
@@ -163,8 +163,8 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppppppoo",
-            "dagen_goed": 84,
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppppppop",
+            "dagen_goed": 83,
             "dagen_gemeten": 90
         },
         {
@@ -537,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "51c890c1840ac1f7"
+    "inhoud": "d72368c31428bc3b"
 }

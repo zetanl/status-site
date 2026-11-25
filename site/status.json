@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-25T06:34:03+00:00",
+    "gegenereerd_op": "2026-11-25T06:41:03+00:00",
     "kop": "part",
     "groepen_ok": 11,
     "groepen_totaal": 12,
@@ -447,13 +447,13 @@
                 "nl": "ZETA AI, de AI-diensten die wij zelf in Nederland draaien.",
                 "en": "ZETA AI, the AI services we run ourselves in the Netherlands."
             },
-            "status": "ok",
+            "status": "none",
             "onderdelen": [
                 {
                     "id": "ai.zetaai",
                     "nl": "ZETA AI",
                     "en": "ZETA AI",
-                    "status": "ok",
+                    "status": "none",
                     "bron": "auto"
                 }
             ],
@@ -537,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "292b9bd78ceea7c2"
+    "inhoud": "dffebd011a79040c"
 }

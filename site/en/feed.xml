@@ -7,14 +7,7 @@
 <atom:link href="https://status.zeta.nl/en/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Incidents and planned maintenance at ZETA</description>
 <language>en</language>
-<lastBuildDate>Thu, 26 Nov 2026 23:42:03 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 23:49:05 +0000</lastBuildDate>
 <ttl>5</ttl>
-<item>
-<title>Incident: Issue at Microsoft</title>
-<link>https://status.zeta.nl/en/#actief</link>
-<guid isPermaLink="false">zeta-status-lev-microsoft-2026-11-26T18:37:00+00:00</guid>
-<pubDate>Thu, 26 Nov 2026 18:37:00 +0000</pubDate>
-<description>Started: 26 Nov 2026 19:37. Affected: Outlook and Exchange. This is at our supplier Microsoft. We are following it and will report when it is resolved.</description>
-</item>
 </channel>
 </rss>

@@ -7,7 +7,14 @@
 <atom:link href="https://status.zeta.nl/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Storingen en gepland onderhoud bij ZETA</description>
 <language>nl</language>
-<lastBuildDate>Thu, 26 Nov 2026 10:47:05 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 10:48:05 +0000</lastBuildDate>
 <ttl>5</ttl>
+<item>
+<title>Storing: Storing bij KPN</title>
+<link>https://status.zeta.nl/#actief</link>
+<guid isPermaLink="false">zeta-status-kpn-1fa5a4a58378d310a9d4c6efeeaad3cc-2026-11-26T08:00:00+00:00</guid>
+<pubDate>Thu, 26 Nov 2026 08:00:00 +0000</pubDate>
+<description>Begonnen: 26 nov. 2026 09:00. Geraakt: Vaste telefonie (VoIP), Telefonisch contact met ZETA, Mobiel, Nummerbehoud en overzetten. Een deel van de telefonie of verbindingen kan verstoord zijn. Dit ligt bij KPN. Wij volgen het en melden het als het is opgelost.</description>
+</item>
 </channel>
 </rss>

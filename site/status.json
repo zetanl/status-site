@@ -1,8 +1,8 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-27T12:48:03+00:00",
+    "gegenereerd_op": "2026-11-27T12:49:03+00:00",
     "kop": "part",
-    "groepen_ok": 9,
+    "groepen_ok": 11,
     "groepen_totaal": 12,
     "groepen": [
         {
@@ -88,13 +88,13 @@
                 "nl": "Vaste telefonie, mobiel en bellen via Microsoft Teams. Wij gebruiken hiervoor het netwerk van KPN.",
                 "en": "Fixed-line, mobile and calling via Microsoft Teams. We use the KPN network for this."
             },
-            "status": "maint",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "telefonie.vast",
                     "nl": "Vaste telefonie (VoIP)",
                     "en": "Fixed-line (VoIP)",
-                    "status": "maint",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -470,13 +470,13 @@
                 "nl": "Hoe u ons bereikt. Bij een storing kan het druk zijn aan de telefoon.",
                 "en": "How to reach us. During an outage the phone lines may be busy."
             },
-            "status": "maint",
+            "status": "ok",
             "onderdelen": [
                 {
                     "id": "support.telefoon",
                     "nl": "Telefonisch contact met ZETA",
                     "en": "Phone contact with ZETA",
-                    "status": "maint",
+                    "status": "ok",
                     "bron": "auto"
                 },
                 {
@@ -508,5 +508,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "84fe959d91e8e2b6"
+    "inhoud": "bb6e6722eb35286b"
 }

@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-27T22:50:37+00:00",
+    "gegenereerd_op": "2026-11-27T23:01:01+00:00",
     "kop": "part",
     "groepen_ok": 11,
     "groepen_totaal": 12,
@@ -75,7 +75,7 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopooooopoop",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopooooopoopo",
             "dagen_goed": 87,
             "dagen_gemeten": 90
         },
@@ -119,7 +119,7 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmpooomoopm",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmpooomoopmo",
             "dagen_goed": 88,
             "dagen_gemeten": 90
         },
@@ -163,7 +163,7 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppppppopoop",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppppppopoopo",
             "dagen_goed": 82,
             "dagen_gemeten": 90
         },
@@ -214,7 +214,7 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooowwooooww",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooowwoooowwo",
             "dagen_goed": 86,
             "dagen_gemeten": 90
         },
@@ -295,7 +295,7 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopoooooo",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopooooooo",
             "dagen_goed": 89,
             "dagen_gemeten": 90
         },
@@ -332,7 +332,7 @@
                     "bron": "leverancier"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppoooopoop",
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppoooopoopo",
             "dagen_goed": 86,
             "dagen_gemeten": 90
         },
@@ -369,8 +369,8 @@
                     "bron": "handmatig"
                 }
             ],
-            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppoooppbbp",
-            "dagen_goed": 83,
+            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooppoooppbbpp",
+            "dagen_goed": 82,
             "dagen_gemeten": 90
         },
         {
@@ -487,12 +487,12 @@
                     "bron": "auto"
                 }
             ],
-            "balk": "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmpooomoopm",
+            "balk": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooommmpooomoopmo",
             "dagen_goed": 88,
             "dagen_gemeten": 90
         }
     ],
-    "balk_start": "2026-08-30",
+    "balk_start": "2026-08-31",
     "actief": [],
     "gepland": [],
     "recent": [],
@@ -508,5 +508,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "bb6e6722eb35286b"
+    "inhoud": "884e1ec2bae2de0d"
 }

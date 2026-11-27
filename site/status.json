@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-27T12:00:36+00:00",
+    "gegenereerd_op": "2026-11-27T12:02:05+00:00",
     "kop": "part",
     "groepen_ok": 11,
     "groepen_totaal": 12,
@@ -494,7 +494,36 @@
     ],
     "balk_start": "2026-08-30",
     "actief": [],
-    "gepland": [],
+    "gepland": [
+        {
+            "id": "kpn-05dff9b1973cd31006daf8ece053af53",
+            "bron": "leverancier",
+            "soort": "onderhoud",
+            "niveau": "maint",
+            "fase": "gepland",
+            "titel": {
+                "nl": "Onderhoud aan het telefonieplatform van KPN",
+                "en": "Maintenance on the KPN telephony platform"
+            },
+            "merkt": {
+                "nl": "Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.",
+                "en": "You will probably not notice anything. A call may drop for a few minutes."
+            },
+            "doen": {
+                "nl": "U hoeft niets te doen.",
+                "en": "You do not need to do anything."
+            },
+            "onderdelen": [
+                "telefonie.vast",
+                "support.telefoon"
+            ],
+            "begint_op": "2026-11-27T12:45:00+00:00",
+            "eindigt_op": "2026-11-27T13:15:00+00:00",
+            "opgelost_op": null,
+            "volgende_update_op": null,
+            "updates": []
+        }
+    ],
     "recent": [],
     "historie": [],
     "site": {
@@ -508,5 +537,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "7c735b9dd051f5ec"
+    "inhoud": "3f6199f6279ec11f"
 }

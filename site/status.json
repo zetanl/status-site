@@ -1,6 +1,6 @@
 {
     "versie": 1,
-    "gegenereerd_op": "2026-11-27T03:37:31+00:00",
+    "gegenereerd_op": "2026-11-27T03:44:08+00:00",
     "kop": "ok",
     "groepen_ok": 12,
     "groepen_totaal": 12,
@@ -483,7 +483,7 @@
                     "id": "support.tickets",
                     "nl": "Tickets en e-mail",
                     "en": "Tickets and email",
-                    "status": "ok",
+                    "status": "none",
                     "bron": "auto"
                 }
             ],
@@ -508,5 +508,5 @@
         "api": "https://app.zeta.nl",
         "sitekey": "0x4AAAAAAGCdDARE6YlcRtTh"
     },
-    "inhoud": "97c842a63242fa83"
+    "inhoud": "bcb4139e6910b5c9"
 }

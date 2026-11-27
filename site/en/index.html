@@ -104,7 +104,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
   <div class="meter" aria-hidden="true"><svg class="ring" viewBox="0 0 100 100"><path class="b" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/><path class="v" style="stroke:var(--ok);stroke-dashoffset:0" d="M50 6 L88 28 L88 72 L50 94 L12 72 L12 28 Z"/></svg>
    <i class="fas fa-check ok-ic"></i></div>
   <div style="flex:1;min-width:0;max-width:560px"><p class="eb">ZETA Status</p><h1>All services are running normally</h1><p class="sub">We are not aware of any issues affecting our services.</p>
-   <div class="chk">Last updated: <time id="gen" datetime="2026-11-27T03:37:31+00:00">27 Nov 2026, 04:37</time> · Times in Dutch time (CET)</div></div>
+   <div class="chk">Last updated: <time id="gen" datetime="2026-11-27T03:44:08+00:00">27 Nov 2026, 04:44</time> · Times in Dutch time (CET)</div></div>
  </div>
   <div class="hexdeco" aria-hidden="true"><span style="left:0;top:48px"><i class="fas fa-wifi"></i></span><span style="left:84px;top:0"><i class="fas fa-shield-halved"></i></span><span class="acc" style="left:84px;top:96px"><i class="fas fa-signal"></i></span><span style="left:168px;top:48px"><i class="fas fa-server"></i></span></div>
 </div></header>
@@ -1348,7 +1348,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
 </div>
     <div class="bh"><span></span><span>Today</span></div>
     <p class="info">How to reach us. During an outage the phone lines may be busy.</p>
-    <ul class="items"><li><span>Phone contact with ZETA<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Tickets and email<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li></ul>
+    <ul class="items"><li><span>Phone contact with ZETA<span class="src">measured automatically</span></span><span class="chip c-ok"><i class="fas fa-check"></i>Operational</span></li><li><span>Tickets and email<span class="src">measured automatically</span></span><span class="chip c-none"><i class="fas fa-minus"></i>No known issues</span></li></ul>
    </div>
   </details>
   </div></section>
@@ -1371,7 +1371,7 @@ footer{border-top:1px solid var(--line);background:var(--card)}.fg{display:grid;
  <div class="fb"><span>&copy; 2026 ZETA&reg; · Ede, Nederland · <a href="https://www.zeta.nl">www.zeta.nl</a></span><span>No cookies, no tracking.</span></div>
 </div></footer>
 <script>
-(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='97c842a63242fa83',o=document.getElementById('oud');
+(function(){var g=document.getElementById('gen');if(!g)return;var gen=g.getAttribute('datetime'),hash='bcb4139e6910b5c9',o=document.getElementById('oud');
 function oud(t){o.style.display=(Date.now()-Date.parse(t)>15*60*1000)?'block':'none'}oud(gen);
 var fmt=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Amsterdam',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
 setInterval(function(){fetch('../status.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){if(j.inhoud!==hash){location.reload();return}gen=j.gegenereerd_op;g.setAttribute('datetime',gen);g.textContent=fmt.format(new Date(gen));oud(gen)}).catch(function(){oud(gen)})},60000);})();

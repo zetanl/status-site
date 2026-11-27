@@ -7,13 +7,13 @@
 <atom:link href="https://status.zeta.nl/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Storingen en gepland onderhoud bij ZETA</description>
 <language>nl</language>
-<lastBuildDate>Fri, 27 Nov 2026 12:02:05 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 12:13:04 +0000</lastBuildDate>
 <ttl>5</ttl>
 <item>
 <title>Gepland onderhoud (27 nov. 2026 13:45 tot 14:15): Onderhoud aan het telefonieplatform van KPN</title>
 <link>https://status.zeta.nl/#gepland</link>
 <guid isPermaLink="false">zeta-status-kpn-05dff9b1973cd31006daf8ece053af53-2026-11-27T12:45:00+00:00</guid>
-<pubDate>Fri, 27 Nov 2026 12:02:05 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 12:13:04 +0000</pubDate>
 <description>Wanneer: 27 nov. 2026 13:45 tot 14:15. Geraakt: Vaste telefonie (VoIP), Telefonisch contact met ZETA. Waarschijnlijk merkt u niets. Een gesprek kan een paar minuten wegvallen.</description>
 </item>
 </channel>
